@@ -1,0 +1,26 @@
+@media screen and (max-width:768px) {
+
+    .wrapper .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+    
+}
+@media screen and (max-width: 466px){
+    .first-content{
+        background:linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url("/img/peakyblindersmin.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .first-content .container p{
+
+        width: fit-content;
+        
+
+    }
+}
+

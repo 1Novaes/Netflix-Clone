@@ -1,0 +1,90 @@
+/*Variáveis*/
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: var(--preto);
+}
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin: 10px;
+    padding: 10px;
+}
+header nav a:hover{
+    color: white;
+}
+
+.container h1 {
+    color: var(--vermelho);
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    max-width: 960px;
+    margin: 0 auto;
+    height: 15vh;
+}
+/*Conteudo principal*/
+
+.first-content{
+    background:linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url("/img/peakyblinders.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(70, 68, 68);
+    min-height: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 100px;
+    max-width: 960px;
+    margin-bottom: 40px;
+    
+
+}
+
+
+.bottons button{
+    background-color: rgba(0, 0, 0, .50); 
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-right: 5px;
+    border: 1px solid white;
+    border-radius: 5%;
+   
+}
+.bottons button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s all ease;
+}
+
+
+.carousel{
+    
+    margin: 20px;
+}
+.carousel .container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.wrapper{
+    margin: 20px;
+}
